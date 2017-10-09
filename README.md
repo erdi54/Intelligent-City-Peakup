@@ -1,7 +1,7 @@
 # Intelligent-City-Peakup
 IoT akıllı Şehir uygulaması
 
-Sensörde yaptığımız  geliştirmelerde dolayı arduino uno hem sensörü okuyup  hemde xbee üzerinden  veri gönderemiyorduk
-Bu yüzden nanoCO.ino yu yazarak ve Seriporttan iletişim sağlayarak ölçüm değerlerini  çekebildik.
+[Sensörün doğru çalışması için kullandığımız kodlar xbee nin veri göndermesini engelliyordu. (Sensör için Timer ayarlarını değiştirmek gerekiyordu, büyük ihtimalle ondan dolayı sorun oldu) İkisi aynı arduino üzerinde çalışmıyordu bu nedenle sensörü arduino nano üzerinde işleyip ppm değerini arduino uno ya gönderdik. Uno üzerinden de xbee ile merkeze gönderim sağlanıyor
+
 
 Diğer Açıklamalar kod dosyalarının içerisinde satır aralarında belirtilmiştir..
